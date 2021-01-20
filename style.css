@@ -1,0 +1,137 @@
+body{
+	background-color: #040404;
+}
+
+
+.cabeza{
+	margin: auto;
+	border: solid;
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	border-color: grey;
+	box-shadow: 10px -2px #555;
+
+}
+
+
+.titulo{
+	text-align: center;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: -2px -2px 1px #555;
+}
+
+.subtitulo{
+	text-align: center;
+	color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo2{
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid-container{
+	margin-left: 20%;
+	display: grid;
+
+	grid-template-columns: 400px 400px 400px;
+}
+
+.grid-item{
+	border: 1px solid black;
+}
+
+.grid-item img{
+	height: 80%;
+	width: 80%;
+}
+
+.num{
+	color: grey;
+	padding: 0px 50px 0px 40px;
+}
+
+.imag{
+	padding: 0px 50px 0px 40px;
+}
+
+.footer{
+	color:white;
+}
+
+.canciones{
+	margin-top: 65px;
+	color: white;
+	text-align: center;
+}
+
+.lista{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.lista li{
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.contenido{
+	width: 80%;
+	margin: 7% 10% 5% 10%;
+}
+
+.img-fondo{
+	margin: auto;
+	display: block;
+}
+
+.texto-atras{
+	width: 100%;
+	position: relative;
+	margin-top: -28%;
+}
+
+.acerca a{
+	color:white;
+}
+
+.menu{
+	align-content: center;
+	text-align: center;
+	padding: 30px;
+}
+
+.menu a{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	margin-right: 35px;
+	margin-left: 35px;
+}
+
+.menu-container{
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	width: 500px;
+	text-align: center;
+	margin: auto;
+}
+
+.about-titulos{
+	text-align: center;
+	margin: auto;
+}
+
+.about-titulos h3,h2{
+	color: white;
+}
